@@ -49,16 +49,16 @@
 # f.close()
 # f=open("jason.json","r")
 # print(f.read())
-f=open("hi.csv","w")
+# f=open("hi.csv","w")
 
-x=input("Write the candidate name:")
-y=input("Write the candidate age:")
-z=input("Write the candidate phone number:")
-datum= x+y+z
-f.write(datum)
-f.close()
-f=open("hi.csv","r")
-print(f.read())
+# x=input("Write the candidate name:")
+# y=input("Write the candidate age:")
+# z=input("Write the candidate phone number:")
+# datum= x+y+z
+# f.write(datum)
+# f.close()
+# f=open("hi.csv","r")
+# print(f.read())
 
 
 

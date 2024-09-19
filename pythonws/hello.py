@@ -208,21 +208,21 @@ breath '''
 #     print("area is",z)
 # area=findArea(x,y)
 # print("the area is ", area)
-"""WAP for N!(recursive function)""" 
-def factorial_recursive(n):
-    if n < 0:
-        raise ValueError("Factorial is not defined for negative numbers")
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial_recursive(n - 1)
+# """WAP for N!(recursive function)""" 
+# def factorial_recursive(n):
+#     if n < 0:
+#         raise ValueError("Factorial is not defined for negative numbers")
+#     if n == 0 or n == 1:
+#         return 1
+#     return n * factorial_recursive(n - 1)
 
-# Example usage:
-n = 5
-print(f"The factorial of {n} is {factorial_recursive(n)}")
-'''Tuple- to donwload multiple unchangeable data
-but it can be changed thorugh converting it into list first '''
-# myTuple= ("Ivan","Anshu","Wani","Anjali","Wani")
-#print(type(myTuple))
+# # Example usage:
+# n = 5
+# print(f"The factorial of {n} is {factorial_recursive(n)}")
+# '''Tuple- to donwload multiple unchangeable data
+# but it can be changed thorugh converting it into list first '''
+# # myTuple= ("Ivan","Anshu","Wani","Anjali","Wani")
+# #print(type(myTuple))
 #print(myTuple) # printted 2 time Wani, can store duplicate 
 #values alike the set
 #value get stored with the index
@@ -280,19 +280,44 @@ but it can be changed thorugh converting it into list first '''
 #polymorphism method overloading
 # def age(dob1):
 #     print(dob1)
-
 # def age(dob, name):
 #     print(dob, name)
-
 # #x=age("19 oct 1999")
 # y=age("20feb 2020", "Ashish")
+"""Exception handling, numpy, panda matplotlib"""
+'''panda - dat readby panda'''
+'''numpy- data get created by it'''
+'''matplotlib- respresenting data in graphs '''
+# try:
+#     print(x)
+# except NameError:
+#     print("Variable x is not defined")
+# except:
+#     print("Something else went wrong")
 
+# def inputAlphabetOnly(name):
+#     while True:
+#         user_input = input (name)
+#         if user_input.isalpha():
+#             return user_input
+#         else:
+#             print("Invalid input.")
+# name= inputAlphabetOnly("Enter your name:")
+# print(f"hello,{name}!")
+#error numeric
+#so put function innumeric in place a isalpha
+# def inputAlphabetOnly(name):
+#     while True:
+#         user_input = input (name)
+#         if user_input.isnumeric():
+#             return user_input
+#         else:
+#             print("Invalid input.")
+# name= inputAlphabetOnly("Enter your name:")
+# print(f"hello,{name}!")
 
-
-
-
-
-
+import pyjokes
+print(pyjokes.get_joke())
 
 
 
